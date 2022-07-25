@@ -1,0 +1,12 @@
+/* Otra forma de trabajar css, anclando al index la ruta */
+        body {
+            background-color: rgb(195, 135, 75);
+        }
+        h1 {
+            color: yellow;
+            margin-left: 40px;
+
+        }
+    
+
+
