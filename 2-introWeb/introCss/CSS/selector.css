@@ -1,0 +1,21 @@
+div{
+    border: red 3px solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* Selector hijo etiqueta>f propiedad como párrafo
+Selector consecutivo E + lo que afecta (todo lo de fuera del div)
+Selector hermano ~ */
+/* div >+~ */
+
+div > p{
+    color: red;
+
+}
+
+
+
+
+
+
