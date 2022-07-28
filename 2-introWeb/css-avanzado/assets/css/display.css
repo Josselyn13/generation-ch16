@@ -1,0 +1,73 @@
+/* Selector para clase cuadro-padre */
+.cuadro-padre{
+    background-color: rgb(243, 166, 181);
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+
+    /* Recuerden a word */
+    justify-content: space-between;
+
+    /* Nos permite alinear verticarl */
+    align-items: center;
+
+}
+
+
+
+.cuadro{
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    border: 10px solid yellow;
+    border-radius: 10% 20% 30% 40%;
+    
+}
+
+.el-1{
+    background-color: aquamarine;
+   /* display: none; */ /* desaparece el elemento */
+    align-self: flex-start;
+    flex-grow: 1;
+}
+
+.el-2{
+    background-color: chartreuse;
+    flex-grow: 1;
+}
+
+.el-3{
+    background-color: coral;
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+.el-4{
+    background-color: darkorchid;
+    flex-grow: 1;
+}
+
+/* .el-5{
+    background-color: gold;
+    flex-grow: 1;
+} */
+
+/* Introducción a Bootstrap */
+.contenedor {
+    height: 200px;
+    background-color: springgreen;
+
+    max-width: 1200px;
+    /* vertical-horizontal */
+    margin: 0 auto;
+}
+.fila{
+    display: flex;
+}
+
+.columna{
+    flex-grow: 1;
+}
+
+
+

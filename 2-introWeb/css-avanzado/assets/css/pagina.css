@@ -1,0 +1,76 @@
+
+/* body{
+    url(https://es.vecteezy.com/arte-vectorial/5275440-patron-repetible-de-pequenos-iconos-relacionados-con-el-amor-con-puntos-aleatorios)
+para el fondo
+}
+ */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aquamarine;
+    height: 60px;
+    
+}
+
+ul{
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: flex-end;
+
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 5px 15px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+a:hover {
+    color: red;
+    background-color: rgb(251, 189, 189);
+    transition: 1s;
+}
+
+.logo img{
+    width: 60px;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* ----- Banner----- */
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.banner img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.banner img:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+

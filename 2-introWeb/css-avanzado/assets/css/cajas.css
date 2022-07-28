@@ -1,6 +1,19 @@
+html{
+    font-size: 16px;
+    /* El html es la raíz y vienen valores por defecto así que si se quiere cambiar todo se hace desde el html, unidad patrón */
+}
+
+.cuadro-padre{
+    font-size: 10;
+}
+
+
+
 .cuadro{
-    height: 100px;
-    width: 100px;
+    /* 1rem = 16px */
+    /* Las unidades em van a tomar la unidad del padre */
+    height: 10em;
+    width: 10em;
     
 /*     margin-top: 10px;
     margin-right: 20px;
