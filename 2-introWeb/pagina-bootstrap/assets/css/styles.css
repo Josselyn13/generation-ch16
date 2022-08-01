@@ -1,0 +1,26 @@
+.img-carousel{
+    height: calc(50vh - 76px); /* permite calcular, viewer held (vh) menos la navbar */
+    object-fit: cover;
+}
+
+.img-carta{
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Media querys son formas especializaas en cada resolución de pantalla*/
+@media(max-width: 600px){
+    body{
+        background-color: blue;
+    }
+}
+
+.caja{
+    position: relative;
+    top: -50px;
+}
+
+
+
+
+
