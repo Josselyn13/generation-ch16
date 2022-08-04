@@ -2,7 +2,10 @@ let carreritas = ["Lucia", "Roberto", "María", "Jesús", "Andrea", "José"];
 
 //1
 carreritas.splice(2,0, "Andrea");
+console.log(carreritas);
 carreritas.splice(5,1)
+
+
 console.log(carreritas);
 
 //2
