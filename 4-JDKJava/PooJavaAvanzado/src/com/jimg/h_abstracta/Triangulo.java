@@ -1,12 +1,22 @@
 package com.jimg.h_abstracta;
 
-public class Triangulo {
+public class Triangulo extends  FigurasGeometricas{
     private float base;
     private float altura;
 
+
+
     public Triangulo(float base, float altura) {
+
+        super("Triangulo ");
+
         this.base = base;
         this.altura = altura;
+    }
+
+    @Override
+    public float area(){
+        return (getBase()*getAltura())/2;
     }
 
     public float getBase() {
